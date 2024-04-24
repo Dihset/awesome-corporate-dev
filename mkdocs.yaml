@@ -1,12 +1,10 @@
-site_name: Корпоративный styleguide для python
+site_name: AWESOME Корпоративная разработка
 docs_dir: docs/
-repo_name: 'Dihset/python-corporate-styleguide'
-repo_url: 'https://github.com/Dihset/python-corporate-styleguide'
+repo_name: 'Dihset/awesome-corporate-deve'
+repo_url: 'https://github.com/Dihset/awesome-corporate-dev'
 nav:
   - Введение: index.md
   - Матрица компетенций: 
     - Python Backend: 'competency-matrix/python-backend.md'
 theme:
   name: material
-plugins:
-  - table-reader
