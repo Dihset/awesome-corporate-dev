@@ -1,0 +1,1092 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
+    
+    
+      
+        <title>Python Backend - AWESOME Корпоративная разработка</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#python-backend" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="AWESOME Корпоративная разработка" class="md-header__button md-logo" aria-label="AWESOME Корпоративная разработка" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AWESOME Корпоративная разработка
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Python Backend
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Dihset/awesome-corporate-dev" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Dihset/awesome-corporate-deve
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="AWESOME Корпоративная разработка" class="md-nav__button md-logo" aria-label="AWESOME Корпоративная разработка" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    AWESOME Корпоративная разработка
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Dihset/awesome-corporate-dev" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Dihset/awesome-corporate-deve
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Введение
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Матрица компетенций
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Матрица компетенций
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Python Backend
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Python Backend
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Цель
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Матрица
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Цель
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Матрица
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="python-backend">Матрица компетенций Python Backend</h1>
+<h2 id="_1">Цель</h2>
+<p>Цель данной матрицы компетенций заключается в том, чтобы обеспечить эффективные инструменты для оценки текущих навыков сотрудников и формирования индивидуальных планов развития, способствующих профессиональному росту и улучшению квалификации. 
+Матрица разработана специально для анализа и оценки уровня навыков Python Backend Developerов, работающих в среднем корпоративном сегменте разработки.</p>
+<p>Использование этой матрицы позволяет не только точно определить текущее состояние компетенций каждого разработчика, но и выявить потенциальные направления для дальнейшего обучения и развития. 
+Это, в свою очередь, поможет нашим командам оставаться конкурентоспособными и эффективными в динамично меняющейся технологической среде.</p>
+<h2 id="_2">Матрица</h2>
+<table>
+    <tr>
+        <td><div style="width:150px"></div></td>
+        <td><div style="width:300px"><code>Intern</code></div></td>
+        <td><div style="width:300px"><code>Junior</code></div></td>
+        <td><div style="width:300px"><code>Junior+</code></div></td>
+        <td><div style="width:300px"><code>Middle</code></div></td>
+        <td><div style="width:300px"><code>Middle+</code></div></td>
+        <td><div style="width:300px"><code>Senior</code></div></td>
+        <td><div style="width:300px"><code>Lead</code></div></td>
+    </tr>
+    <tr>
+        <td><code>Python</code></td>
+        <td>
+            1. Понимание основных конструкций языка: переменные, условия, циклы. задач.<br>
+            2. Основы работы с базовыми типами данных: строки, списки и словари.<br>
+            3. Способность создавать простые программы для решения базовых задач.
+        </td>
+        <td>
+            1. Уверенное владение основными структурами данных (списки, кортежи, множества).<br>
+            2. Обработка ошибок и исключений.<br>
+            3. Понимание основ объектно-ориентированного программирования.
+        </td>
+        <td>
+            1. Продвинутое использование парадигмы ООП, включая полиморфизм и инкапсуляцию.<br>
+            2. Понимание принципов работы декораторов и метаклассов.
+        </td>
+        <td>
+            1. Использование инструментов для оптимизации и улучшения производительности Python-кода.<br>
+            2. Глубокое понимание GIL (Global Interpreter Lock) и методов его обхода.<br>
+            3. Понимание счетчика ссылок и сборщика мусора
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>Структуры данных</code></td>
+        <td>
+            1. Понимание и использование основных структур данных, таких как списки, множества, словари.<br>
+            2. Простые операции (вставка, удаление, поиск) на основных структурах данных.
+        </td>
+        <td>
+            1. Эффективное использование списков и словарей для различных задач.<br>
+            2. Работа с вложенными структурами данных.<br>
+            3. Понимание принципов работы стеков и очередей.<br>
+            4. Оценка временной и пространственной сложности алгоритмов на основных структурах данных.
+        </td>
+        <td>
+            1. Понимание древовидных структур данных и графов.<br>
+            2. Работа с бинарными деревьями, AVL-деревьями и графами.<br>
+            3. Работа с двусвязными списками, кольцевыми списками и другими продвинутыми вариантами.<br>
+            4. Углубленное понимание работы хеш-таблиц и коллизий.
+        </td>
+        <td>
+            1. Работа с несбалансированными деревьями.<br>
+            2. Работа с графами, включая алгоритмы обхода.  
+        </td>
+        <td>
+            1. Понимание распределенных структур данных для масштабируемости.<br>
+            2. Работа с согласованными и непрерывными структурами данных.<br>
+            3. Оптимизация производительности при использовании структур данных.<br>
+            4. Анализ и улучшение сложности алгоритмов.
+        </td>
+        <td>
+            1. Работа с потоками данных и безопасностью данных в многопоточных приложениях.<br>
+            2. Применение структур данных для эффективного решения задач параллельных вычислений.
+        </td>
+        <td>
+            1. Принятие стратегических решений по выбору структур данных в зависимости от требований проекта.<br>
+            2. Определение стандартов и лучших практик по использованию структур данных в организации.<br>
+            3. Использование структур данных в архитектуре проекта для достижения высокой производительности и масштабируемости.
+        </td>
+    </tr>
+    <tr>    
+        <td><code>Алгоритмы</code></td>
+        <td>
+            1. Базовые алгоритмы. (Сортировки. Бинарный поиск)<br>
+            2. Сложность алгоритма
+        </td>
+        <td>
+            1. Использование более эффективных алгоритмов сортировки (быстрая сортировка, сортировка слиянием).<br>
+            2. Работа с бинарным поиском и поиском по хеш-таблицам.<br>
+            3. Понимание понятия мемоизации.
+        </td>
+        <td>
+            1. Работа с алгоритмами поиска в графах (DFS, BFS).<br>
+            2. Применение алгоритмов кратчайшего пути (алгоритм Дейкстры, Флойда-Уоршелла, Беллмана-Форда).</td>
+        <td>
+            1. Работа с алгоритмами сортировки с временной сложностью O(n log n) (например, TimSort).<br>
+            2. Стабильность алгоритмов<br>
+            3. Работа с алгоритмами на деревьях (например, обходы дерева, поиск LCA).<br>
+            4. Работа с регулярными выражениями.
+        </td>
+        <td></td>
+        <td>
+            1. Работа с алгоритмами для решения задач на графах высокой сложности (например, алгоритмы на сетях, потоки в графах).<br>
+            2. Применение алгоритмов в распределенных системах и на параллельных архитектурах.<br>
+            3. Работа с алгоритмами консенсуса и распределенной блокировкой.
+        </td>
+        <td>
+            1. Принятие стратегических решений по выбору алгоритмов в зависимости от требований проекта.<br>
+            2. Оценка производительности и масштабируемости алгоритмов.
+        </td>
+    </tr>
+    <tr>
+        <td><code>Библиотеки</code></td>
+        <td>
+            1. Знание базовых библиотек, таких как <code>math</code>, <code>random</code>, <code>sys</code>, <code>json</code>, <code>datetime</code>, <code>random</code>, <code>csv</code>.
+        </td>
+        <td>
+            1. Использование базовых библиотек: <code>itertools</code>, <code>functools</code>, <code>logging</code>, <code>dataclasses</code>, <code>re</code>, <code>collections</code>, <code>pathlib</code>, <code>pickle</code>, <code>io</code>, <code>urllib</code>.<br>
+            2. <code>Pydantic</code><br>
+            3. <code>requests</code> / <code>httpx</code><br>
+            4. Простые запросы с использованием библиотеки <code>SQLAlchemy</code> для работы с базами данных.
+        </td>
+        <td>
+            1. Использование базовых библиотек: <code>threading</code>, <code>multiprocessing</code>, <code>contextlib</code>, <code>contextvars</code>, <code>abs</code>, <code>ast</code>.<br>
+            2. <code>Pandas</code>, <code>numpy</code></td>
+        <td>
+            1. Работа с библиотекой <code>asyncio</code>. Понимание ее работы<br>
+            2. Опыт использования <code>aiohttp</code> для асинхронных HTTP-запросов.
+        </td>
+        <td>
+            1. Знание библиотек для обработки больших данных, таких как Apache Spark.<br>
+            2. Опыт работы с библиотеками визуализации: <code>matplotlib</code>, <code>seaborn</code>, <code>Plotly</code>.</td>
+        <td></td>
+        <td>
+            1. Принятие стратегических решений по выбору библиотек и фреймворков для проектов.
+        </td>
+    </tr>
+    <tr>
+        <td><code>Django</code></td>
+        <td>
+            1. Понимание структуры проекта Django.<br>
+            2. Создание простых моделей, представлений и шаблонов.<br>
+            3. Работа с URL-маршрутизацией в Django.
+        </td>
+        <td>
+            1. Работа с Django ORM для взаимодействия с базой данных.<br>
+            2. Простые операции CRUD с использованием моделей Django.<br>
+            3. Создание и обработка форм в Django.<br>
+            4. Создание простых API на DRF / Django-Ninja<br>
+            5. Создание простых асинхронных задач с использованием Celery
+        </td>
+        <td>
+            1. Использование классов представлений (View) и их настройка.<br>
+            2. Работа с различными типами представлений (ListView, DetailView и др.).<br>
+            3. Работа с системой аутентификации Django.<br>
+            4. Понимание фабрики сериализаторов.
+        </td>
+        <td>
+            1. Использование кэширования и других методов оптимизации.<br>
+            2. Работа с многопоточностью и асинхронными запросами.<br>
+            3. Работа с Django Channels для создания асинхронных приложений.<br>
+            4. Создание сложных цепочек асинхронных задач с использованием Celery
+        </td>
+        <td>
+            1. Опыт написания / применения и отката сложных миграций<br>
+            2. Использование django с elasticsearch / kafka / clickhouse и тп
+        </td>
+        <td>
+            1. Интеграция Django с другими сервисами / микросервисами.<br>
+            2. Работа с инструментами для управления множеством Django-приложений.
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>FastAPI</code></td>
+        <td>
+            1. Понимание основных концепций FastAPI.<br>
+            2. Создание простых эндпоинтов с использованием декораторов FastAPI.
+        </td>
+        <td>
+            1. Использование Pydantic моделей для валидации данных.<br>
+            2. Работа с дополнительными валидаторами Pydantic.<br>
+            3. Понимание концепции зависимостей в FastAPI.<br>
+            4. Использование инъекции зависимостей для работы с внешними ресурсами.
+        </td>
+        <td>
+            1. Работа с системой аутентификации FastAPI.<br>
+            2. Использование ORM / ODM, например SQLAlchemy, для взаимодействия с базой данных.<br>
+            3. Работа с различными типами запросов и фильтров в FastAPI.
+        </td>
+        <td>
+            1. Работа с коллекциями данных и связями между ресурсами.<br>
+            2. Разработка WebSocket-эндпоинтов с использованием FastAPI.<br>
+            3. Применение асинхронных операций для улучшения производительности.
+        </td>
+        <td>
+            1. Интеграция FastAPI с микросервисами.<br>
+            2. Работа с инструментами для управления множеством FastAPI-приложений.<br>
+            3. Разработка стратегий обработки ошибок и безопасности.
+        </td>
+        <td>
+            1. Знание инструментов оптимизации FastAPI приложений: orjson, httptools, uvloop
+            2. Опыт использование нескольких хранилищ в одном FastAPI приложении
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>Хранилища</code></td>
+        <td>
+            1. Понимание базовых концепций реляционных баз данных.<br>
+            2. Основы создания и использования SQL-запросов.<br>
+            3. Понимание различий между реляционными и NoSQL базами данных.<br>
+            4. Основы работы с NoSQL базами данных, такими как MongoDB или Cassandra.<br>
+            5. Понимание принципов ключ-значение в Redis.<br>
+            6. Основы создания простых запросов к Elasticsearch.<br>
+            7. Загрузка и скачивание файлов из S3.
+        </td>
+        <td>
+            1. Использование SQL для создания, изменения и извлечения данных в приложении.<br>
+            2. Знание основных операций в NoSQL базах данных.<br>
+            3. Использование Redis для кэширования данных в приложении.<br>
+            4. Работа с запросами в Elasticsearch для фильтрации и сортировки данных.<br>
+            5. Индексация и обновление данных в Elasticsearch.<br>
+            6. Интеграция S3 для хранения и обработки файлов в приложении.
+        </td>
+        <td>
+            1. Работа с транзакциями в реляционных базах данных.<br>
+            2. Оптимизация производительности запросов с использованием индексов и анализа выполнения.<br>
+            3. Использование различных типов NoSQL баз данных в зависимости от требований проекта.<br>
+            4. Использование Pipelining и транзакций в Redis.<br>
+            5. Работа с расширенными функциями поиска, такими как фасеты и агрегации.<br>
+            6. Интеграция Elasticsearch в приложение для полнотекстового поиска.
+        </td>
+        <td>
+            1. Проектирование и оптимизация схемы базы данных для реляционных и NoSQL баз данных.<br>
+            2. Проектирование и настройка партицирования в NoSQL базах данных.<br>
+            3. Работа с механизмами шардинга и репликации в Redis. <br>
+            4. Использование Redis в распределенных системах.<br>
+            5. Оптимизация индексации и поиска для высоконагруженных систем.<br>
+            6. Использование репликации и разделения данных в Elasticsearch.
+        </td>
+        <td>
+            1. Оптимизация работы с Redis в условиях высокой нагрузки.<br>
+            2. Использование Redis в качестве брокера сообщений. <br>
+            3. Продвинутая оптимизация SQL-запросов с использованием индексов, материализованных представлений и хранимых процедур.<br>
+            4. Работа с механизмами кэширования и предварительной выборки данных.
+        </td>
+        <td>
+            1. Работа с распределенными кешами и хранилищами.<br>
+            2. Использование инструментов машинного обучения для улучшения поиска в Elasticsearch.<br>
+            3. Работа с тематическим моделированием и рекомендательными системами.<br>
+            4. Проектирование и внедрение высокодоступных и отказоустойчивых хранилищ данных в облаке.
+        </td>
+        <td>
+            1. Принятие стратегических решений по выбору между SQL и NoSQL решениями в компании.<br>
+            2. Внедрение новых технологий хранения данных.<br>
+            3. Менторство и обучение команды в области работы с данными.
+        </td>
+    </tr>
+    <tr>
+        <td><code>SQL</code></td>
+        <td>
+            1. Понимание основных операторов: SELECT, INSERT, UPDATE, DELETE.<br>
+            2. Работа с условиями WHERE для фильтрации данных.<br>
+            3. Знание простых JOIN-операций для объединения таблиц.<br>
+            4. Создание простых таблиц и определение связей между ними.<br>
+            5. Использование базовых типов данных (целые числа, строки, даты).        
+        </td>
+        <td>
+            1. Работа с индексами для улучшения производительности запросов.<br>
+            2. Использование GROUP BY и агрегатных функций для анализа данных.<br>
+            3. Понимание транзакционной модели данных и работа с транзакциями.<br>
+            4. Знание команд COMMIT и ROLLBACK.
+        </td>
+        <td>
+            1. Использование подзапросов для решения сложных задач.
+            2. Использование оконных функций.
+        </td>
+        <td>
+            1. Проектирование сложных схем баз данных с учетом требований приложения.<br>
+            2. Работа с инструментами моделирования данных (например, ER-диаграммы).
+        </td>
+        <td></td>
+        <td>
+            1. Оптимизация схем баз данных для различных видов запросов.
+        </td>
+        <td>
+            1. Принятие стратегических решений по выбору технологий и методов хранения данных.
+        </td>
+    </tr>
+    <tr>
+        <td><code>Тестирование и контроль качества</code></td>
+        <td></td>
+        <td>
+            1. Умение писать тесты с использованием pytest / unittest.<br>
+            2. Пользоваться настроенными линтерами и форматерами.
+        </td>
+        <td>
+            1. Знание и умение применять mock, fixture, faker.<br>
+            2. Понимание настроек линтеров.<br>
+            3. Придерживаться типизации кода.
+        </td>
+        <td>
+            1. Понимание ценности тестов в корпоративной разработке.<br>
+            2. Умение настаивать линтеры и тайпчекеры.
+        </td>
+        <td>
+            1. Написание нагрузочных тестов.<br>
+            2. Понимание различия тестовых сред<br>
+            3. Умение настраивать тестовые среды.
+        </td>
+        <td>
+            1. Разработка через тестирование. Понимание плюсов и минусов.<br>
+            2. Понимаение различий flake, pylint, ruff.
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>Веб разработка</code></td>
+        <td>
+            1. Понимание базовых принципов работы веба (HTTP, HTTPS).<br>
+            2. Работа с параметрами запросов и ответов.<br>
+            3. Основы работы с заголовками HTTP.
+        </td><td>
+            1. Работа с более сложными сценариями использования HTTP.<br>
+            2. Знание и использование различных заголовков, таких как Authorization, Content-Type, и др.<br>
+            3. Проектирование и разработка RESTful API.<br>
+            4. Знание и применение форматов данных, таких как JSON.
+        </td><td>
+            1. Работа с версионированием API.<br>
+            2. Понимание основ GraphQL / grpc / jsonrpc и их преимуществ и недостатков.<br>
+            3. Знание основ безопасности веб-приложений.
+        </td><td>
+            1. Оптимизация запросов для повышения производительности.<br>
+            2. Работа с кэшированием и заголовками для контроля кеширования.
+        </td><td>
+            1. Использование асинхронных запросов для повышения производительности.<br>
+            2. Работа с веб-сокетами для реализации асинхронных веб-приложений.<br>
+            3. Защита GraphQL-запросов от уязвимостей.
+        </td><td>
+            1. Использование CDN и других инструментов для улучшения распределения нагрузки.
+        </td><td>
+            1. Принятие стратегических решений по выбору протоколов и технологий для проектов.
+        </td>
+    </tr>
+    <tr>
+        <td><code>Асинхронное программирование и многозадачность</code></td>
+        <td>
+            1. Основы асинхронности. <br>
+            2. Понимание многозадачности.<br>
+            3. Понимание отличий параллельности и конкурентности.
+        </td>
+        <td>
+            1. Работа с корутинами.<br>
+            2. Знание asyncio. Использование async/await.<br>
+            3. Работа с потоками.<br>
+            4. Работа с процессами.<br>
+            5. Опыт работы с celery.
+        </td>
+        <td>
+            1. Понимание работы event loop.<br>
+            2. Понимание работы процессов в операционной системе.<br>
+            3. Понимание принципов обработки ошибок в асинхронном коде.<br>
+            4. Понимание принципов взаимодействия между потоками.
+        </td>
+        <td>
+            1. Оптимизация асинхронного кода.<br>
+            2. Использование асинхронных паттернов.<br>
+            3. Понимание отличий от wsgi и asgi.<br>
+            4. Опыт межсервисного асинхронного взаимодействия с помощью брокеров или event store (rabbitbq / kafka).
+        </td>
+        <td>
+            1. Опыт разрешения проблем в асинхронном коде.
+        </td>
+        <td>
+            1. Опыт создания высоконагруженных асинхронных приложений.
+        </td>
+        <td>
+            1. Руководство командой в области асинхронного программирования.<br>
+            2. Архитектурные решения в асинхронных системах.
+        </td>
+    </tr>
+    <tr>
+        <td><code>Системы контроля версий</code></td>
+        <td>
+            1. Понимание базовых концепций Git.<br>
+            2. Основные команды: clone, commit, push, pull.<br>
+            3. Работа с основными ветками: master, feature, develop.
+        </td>
+        <td>
+            1. Создание и управление ветками для разработки новых функций и исправлений.<br>
+            2. Слияние веток для интеграции изменений.<br>
+            3. Работа с форками и создание pull request'ов.
+        </td>
+        <td>
+            1. Работа с конфликтами при слиянии веток.<br>
+            2. Ручное разрешение конфликтов и их предотвращение.<br>
+            3. Создание и использование Git Hooks для автоматизации процессов (например, перед коммитом).
+        </td>
+        <td>
+            1. Создание релизов и проставление тегов.<br>
+            2. Управление версиями проекта в Git.<br>
+            3. Работа с Git Flow для управления циклом разработки.<br>
+            4. Понимание лучших практик для использования Git в командных проектах.
+        </td>
+        <td>
+            1. Работа с подмодулями и поддеревьями.
+            2. Интеграция Git с другими инструментами разработки.
+        </td>
+        <td></td>
+        <td>
+            1. Принятие стратегических решений по выбору модели ветвления и релизного цикла в больших командах.
+        </td>
+    </tr>
+    <tr>
+        <td><code>Linux</code></td>
+        <td>
+            1. Использование основных команд для навигации и управления файлами.<br>
+            2. Знание основных команд для работы с пакетным менеджером (например, apt, yum).<br>
+            3. Понимание основ прав доступа к файлам и директориям.<br>
+            4. Применение базовых команд для управления правами доступа (rwx).
+        </td>
+        <td>
+            1. Отслеживание и завершение процессов.<br>
+            2. Работа с фоновыми и передними процессами.<br>
+            3. Использование инструментов для диагностики сетевых проблем (например, ping, traceroute).
+        </td>
+        <td>
+            1. Написание простых скриптов на Bash.<br>
+            2. Использование переменных, циклов, условных операторов в скриптах.<br>
+            3. Просмотр и анализ системных журналов (логов).
+        </td>
+        <td>
+            1. Создание и управление пользователями и группами.<br>
+            3. Установка и обновление программных пакетов.<br>
+            4. Управление модулями ядра и ядром системы.
+        </td>
+        <td>
+            1. Использование инструментов автоматизации (например, Ansible).<br>
+            2. Написание скриптов для автоматизации рутинных задач.
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>DevOps</code></td>
+        <td>
+            1. Понимание основных операций в системном администрировании.<br>
+            2. Знание принципов конфигурационного управления.
+        </td>
+        <td>
+            1. Знание Docker и основы работы с контейнерами.
+            2. Использование Docker Compose для управления многоконтейнерными приложениями.<br>
+        </td>
+        <td>
+            1. Основы работы с Kubernetes для оркестрации контейнеров.<br>
+            2. Понимание концепций подов, нод, сервисов и репликации в Kubernetes.
+        </td>
+        <td>
+            1. Работа с blue-green и canary развертываниями.<br>
+            2. Понимание принципов serverless.
+        </td>
+        <td>
+            1. Оптимизация инфраструктуры для высоконагруженных проектов.<br>
+            2. Работа с распределенными системами и горизонтальным масштабированием.<br>
+            3. Оптимизация затрат и ресурсов в облачных средах.
+        </td>
+        <td>
+            1. Опыт миграции высоконагруженного приложения от одного провайдера в другой.
+        </td>
+        <td>
+            1. Принятие стратегических решений по выбору технологий развертывания.<br>
+            2. Консультирование devops инженеров по особенностям работы python.
+        </td>
+    </tr>
+    <tr>
+        <td><code>Мониторинг и логирование</code></td>
+        <td>
+            1. Умение использовать инструменты мониторинга.<br>
+            2. Анализ метрик и журналов.<br>
+            3. Понимание необходимости измеряемого продукта.
+        </td>
+        <td>
+            1. Понимание принципов и использование централизованных систем логирования.<br>
+            2. Создание мониторинговых дашбордов.<br>
+            3. Настройка алертинга и уведомлений.<br>
+            4. Автоматизация мониторинга и логирования.
+        </td>
+        <td>
+            1. Решение проблем и оптимизация производительности на основе данных мониторинга.<br>
+            2. Конфигурация и настройка мониторинга.<br>
+            3. Опыт интеграции с инфраструктурными облачными решениями.
+        </td>
+        <td>
+            1. Работа с распределенными системами мониторинга.<br>
+            2. Настройка межсервисных трассировок.
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+            1. Руководство командой в области мониторинга и логирования.<br>
+            2. Архитектурные решения для масштабируемого мониторинга и логирования.
+        </td>
+    </tr>
+    <!--<tr>
+        <td><code>Внешние интеграции</code></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>-->
+    <tr>
+        <td><code>Архитектура</code></td>
+        <td>
+            1. Знание основных паттернов: Singleton, Factory, Decorator.<br>
+            2. Применение простых паттернов в проектах.
+        </td>
+        <td>
+            1. Понимание основных принципов SOLID.<br>
+            2. Применение принципа единственной ответственности в разработке.<br>
+            3. Использование более сложных паттернов: Observer, Strategy, State, Mediator.<br>
+            4. Проектирование с применением паттернов для повышения гибкости.
+        </td>
+        <td>
+            1. Применение остальных принципов SOLID (Открытое/Закрытое, Подстановки Лисков, Инверсия зависимостей).<br>
+            2. Понимание различных архитектурных стилей: монолит, микросервисы, serverless.
+        </td>
+        <td>
+            1. Применение SOLID в реальных сценариях разработки.<br>
+            2. Оценка и обновление архитектуры для соответствия принципам SOLID.<br>
+            2. Понимание принципов гексагональной архитектуры.<br>
+            4. Проектирование приложений с разделением бизнес-логики и инфраструктуры.<br>
+            5. Проектирование систем с применением более сложных паттернов: CQRS, Event Sourcing.<br>
+            6. Работа с асинхронными и распределенными системами.
+        </td>
+        <td>
+            1. Проектирование высоконагруженных систем с учетом горизонтального масштабирования.<br>
+            2. Использование шаблонов коммуникации между микросервисами.<br>
+            3. Работа с различными стратегиями обновления приложений. <br>
+            4. Проектирование и управление схемой версионирования API.
+        </td>
+        <td></td>
+        <td>
+            1. Применение принципов гексагональной архитектуры в сложных бизнес-сценариях.<br>
+            2. Интеграция гексагональной архитектуры с микросервисной архитектурой.<br>
+            3. Менторство и обучение команды в области архитектуры.<br>
+            4. Разработка и внедрение стандартов архитектурного проектирования в организации.
+        </td>
+    </tr>
+    <!--<tr>
+        <td><code>Безопасность</code></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>-->
+    <tr>
+        <td><code>Командная работа</code></td>
+        <td>
+            1. Участие в ежедневных статусах и созвонах.<br>
+            2. Работа с задачами в системе управления проектами (например, Jira).<br>
+            3. Обмен информацией с коллегами и руководством.<br>
+            4. Способность задавать вопросы и просить помощи.
+        </td>
+        <td>
+            1. Способность эффективно управлять своим временем и задачами.<br>
+            2. Работа с приоритетами и соблюдение дедлайнов.<br>
+            3. Работа в системах контроля версий (например, Git) в рамках команды.<br>
+            4. Понимание принципов и целей Code Review.<br>
+            5. Участие в процессе обзора кода, внесение своих комментариев.
+        </td>
+        <td>
+            1. Улучшение навыков письменной и устной коммуникации.<br>
+            2. Участие в обсуждении архитектурных решений и планировании задач.<br>
+            3. Развитие навыков урегулирования конфликтов.<br>
+            4. Способность конструктивно обсуждать разногласия в команде.
+        </td>
+        <td>
+            1. Возможность взять на себя роль лидера в отсутствие руководителя.<br>
+            2. Способность организовывать и направлять работу команды.<br>
+            3. Помощь младшим членам команды в их профессиональном росте.<br>
+            4. Делегирование задач и предоставление поддержки.<br>
+            5. Умение эффективно управлять конфликтами и находить компромиссы.<br>
+            6. Принятие участия в разрешении сложных ситуаций в команде.
+        </td>
+        <td>
+            1. Разработка и внедрение стратегии управления командой.<br>
+            2. Работа над мотивацией и вовлечением членов команды.<br>
+            3. Развитие программ обучения и поддержка профессионального роста команды.<br>
+            4. Участие в подборе новых сотрудников и их адаптация.
+        </td>
+        <td>
+            1. Принятие стратегических решений в отношении структуры команды.<br>
+            2. Развитие и внедрение культуры работы в команде.<br>
+            3. Принятие инициативы в инновационных проектах и исследованиях.<br>
+            4. Разработка стратегии внедрения новых технологий в команде.
+        </td>
+        <td>
+            1. Разработка и внедрение стратегии развития отдела разработки.<br>
+            2. Принятие ключевых стратегических решений в области технологического стека, архитектуры и методологии разработки.<br>
+            3. Поддержка и поощрение исследовательской работы внутри команды.<br>
+            4. Развитие программ для непрерывного обучения и профессионального роста команды.<br>
+            5. Проведение регулярных обзоров производительности и обратной связи.<br>
+            6. Внедрение и поддержание ценностей и культуры компании в отделе разработки.<br>
+            7. Формирование положительного и вдохновляющего рабочего окружения.
+        </td>
+    </tr>
+    <!--<tr>
+        <td><code>Обучение и развитие</code></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>-->
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      
+    
+  </body>
+</html>
